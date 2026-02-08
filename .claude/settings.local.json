@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(docker compose:*)",
+      "Bash(source:*)",
+      "Bash(PGPASSWORD=\"$POSTGRES_PASSWORD\" psql:*)",
+      "Bash(export PGPASSWORD=postgres)",
+      "Bash(psql:*)",
+      "Bash(for f in /Users/seekseep/Development/github.com/seekseep/pl-pgsql-practice/sql/3-advanced-control/5-function-trigger/*.sql)",
+      "Bash(done)"
+    ]
+  }
+}
