@@ -40,16 +40,6 @@ psql -h localhost -p "$POSTGRES_PORT" -U "$POSTGRES_USER" -d "$POSTGRES_DB" \
 - **Docker** — [macOS](https://docs.docker.com/desktop/setup/install/mac-install/) / [Windows](https://docs.docker.com/desktop/setup/install/windows-install/) / Linux (`apt-get install docker.io docker-compose-plugin`)
 - **psql** — macOS: `brew install libpq` / Linux: `apt-get install postgresql-client`
 
-## ディレクトリ構成
+## ドキュメント
 
-```
-docs/
-├── 0-setup/              # セットアップ手順 + SQL (テーブル定義・シードデータ)
-├── 1-database/           # データベース定義書
-├── 2-basic/              # SQL 基礎 (SELECT/INSERT/UPDATE/DELETE) + SQL
-├── 3-basic-control/      # PL/pgSQL 基本制御 (変数〜例外処理) + SQL
-├── 4-advanced-control/   # PostgreSQL 固有機能 (PERFORM〜トリガー) + SQL
-└── 5-practice/           # 実践課題 (6 題) + SQL
-```
-
-各ディレクトリに `README.md`（目次）、トピック別の `.md`（解説とコード）、`sql/`（実行用 SQL ファイル）が含まれています。
+[docs/README.md](docs/README.md) — 全体の目次とディレクトリ構成
